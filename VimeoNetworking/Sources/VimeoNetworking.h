@@ -74,5 +74,3 @@ FOUNDATION_EXPORT const unsigned char VimeoNetworkingVersionString[];
 #import <VimeoNetworking/AFURLSessionManager.h>
 #import <VimeoNetworking/AFURLResponseSerialization.h>
 #import <VimeoNetworking/AFURLRequestSerialization.h>
-#import <VimeoNetworking/AFSecurityPolicy.h>
-#import <VimeoNetworking/UIImageView+AFNetworking.h>
