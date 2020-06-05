@@ -20,12 +20,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "UIRefreshControl+AFNetworking.h"
+#import <VimeoNetworking/UIRefreshControl+AFNetworking.h>
 #import <objc/runtime.h>
 
 #if TARGET_OS_IOS
 
-#import "AFURLSessionManager.h"
+#import <VimeoNetworking/AFURLSessionManager.h>
 
 @interface AFRefreshControlNotificationObserver : NSObject
 @property (readonly, nonatomic, weak) UIRefreshControl *refreshControl;

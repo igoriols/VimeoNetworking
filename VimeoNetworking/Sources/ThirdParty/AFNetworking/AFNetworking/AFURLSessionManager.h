@@ -22,11 +22,11 @@
 
 #import <Foundation/Foundation.h>
 
-#import "AFURLResponseSerialization.h"
-#import "AFURLRequestSerialization.h"
-#import "AFSecurityPolicy.h"
+#import <VimeoNetworking/AFURLResponseSerialization.h>
+#import <VimeoNetworking/AFURLRequestSerialization.h>
+#import <VimeoNetworking/AFSecurityPolicy.h>
 #if !TARGET_OS_WATCH
-#import "AFNetworkReachabilityManager.h"
+#import <VimeoNetworking/AFNetworkReachabilityManager.h>
 #endif
 
 /**

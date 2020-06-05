@@ -27,15 +27,15 @@
     #define _UIKIT_AFNETWORKING_
 
 #if TARGET_OS_IOS
-    #import "AFAutoPurgingImageCache.h"
-    #import "AFImageDownloader.h"
-    #import "AFNetworkActivityIndicatorManager.h"
-    #import "UIRefreshControl+AFNetworking.h"
+    #import <VimeoNetworking/AFAutoPurgingImageCache.h>
+    #import <VimeoNetworking/AFImageDownloader.h>
+    #import <VimeoNetworking/AFNetworkActivityIndicatorManager.h>
+    #import <VimeoNetworking/UIRefreshControl+AFNetworking.h>
 #endif
 
-    #import "UIActivityIndicatorView+AFNetworking.h"
-    #import "UIButton+AFNetworking.h"
-    #import "UIImageView+AFNetworking.h"
-    #import "UIProgressView+AFNetworking.h"
+    #import <VimeoNetworking/UIActivityIndicatorView+AFNetworking.h>
+    #import <VimeoNetworking/UIButton+AFNetworking.h>
+    #import <VimeoNetworking/UIImageView+AFNetworking.h>
+    #import <VimeoNetworking/UIProgressView+AFNetworking.h>
 #endif /* _UIKIT_AFNETWORKING_ */
 #endif

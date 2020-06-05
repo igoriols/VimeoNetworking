@@ -19,10 +19,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "AFHTTPSessionManager.h"
+#import <VimeoNetworking/AFHTTPSessionManager.h>
 
-#import "AFURLRequestSerialization.h"
-#import "AFURLResponseSerialization.h"
+#import <VimeoNetworking/AFURLRequestSerialization.h>
+#import <VimeoNetworking/AFURLResponseSerialization.h>
 
 #import <Availability.h>
 #import <TargetConditionals.h>

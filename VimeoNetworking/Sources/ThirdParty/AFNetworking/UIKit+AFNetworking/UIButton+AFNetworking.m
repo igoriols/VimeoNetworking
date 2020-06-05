@@ -19,7 +19,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "UIButton+AFNetworking.h"
+#import <VimeoNetworking/UIButton+AFNetworking.h>
 
 #import <objc/runtime.h>
 

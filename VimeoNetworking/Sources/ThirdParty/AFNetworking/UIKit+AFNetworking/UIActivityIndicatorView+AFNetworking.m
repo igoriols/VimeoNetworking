@@ -19,12 +19,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "UIActivityIndicatorView+AFNetworking.h"
+#import <VimeoNetworking/UIActivityIndicatorView+AFNetworking.h>
 #import <objc/runtime.h>
 
 #if TARGET_OS_IOS || TARGET_OS_TV
 
-#import "AFURLSessionManager.h"
+#import <VimeoNetworking/AFURLSessionManager.h>
 
 @interface AFActivityIndicatorViewNotificationObserver : NSObject
 @property (readonly, nonatomic, weak) UIActivityIndicatorView *activityIndicatorView;

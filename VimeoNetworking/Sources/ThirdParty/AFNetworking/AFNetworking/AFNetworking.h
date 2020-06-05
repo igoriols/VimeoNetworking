@@ -27,15 +27,15 @@
 #ifndef _AFNETWORKING_
     #define _AFNETWORKING_
 
-    #import "AFURLRequestSerialization.h"
-    #import "AFURLResponseSerialization.h"
-    #import "AFSecurityPolicy.h"
+    #import <VimeoNetworking/AFURLRequestSerialization.h>
+    #import <VimeoNetworking/AFURLResponseSerialization.h>
+    #import <VimeoNetworking/AFSecurityPolicy.h>
 
 #if !TARGET_OS_WATCH
-    #import "AFNetworkReachabilityManager.h"
+    #import <VimeoNetworking/AFNetworkReachabilityManager.h>
 #endif
 
-    #import "AFURLSessionManager.h"
-    #import "AFHTTPSessionManager.h"
+    #import <VimeoNetworking/AFURLSessionManager.h>
+    #import <VimeoNetworking/AFHTTPSessionManager.h>
 
 #endif /* _AFNETWORKING_ */

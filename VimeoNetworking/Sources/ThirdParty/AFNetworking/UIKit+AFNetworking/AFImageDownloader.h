@@ -24,8 +24,8 @@
 #if TARGET_OS_IOS || TARGET_OS_TV 
 
 #import <Foundation/Foundation.h>
-#import "AFAutoPurgingImageCache.h"
-#import "AFHTTPSessionManager.h"
+#import <VimeoNetworking/AFAutoPurgingImageCache.h>
+#import <VimeoNetworking/AFHTTPSessionManager.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

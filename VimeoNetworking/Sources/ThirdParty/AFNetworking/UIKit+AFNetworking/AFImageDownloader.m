@@ -23,8 +23,8 @@
 
 #if TARGET_OS_IOS || TARGET_OS_TV
 
-#import "AFImageDownloader.h"
-#import "AFHTTPSessionManager.h"
+#import <VimeoNetworking/AFImageDownloader.h>
+#import <VimeoNetworking/AFHTTPSessionManager.h>
 
 @interface AFImageDownloaderResponseHandler : NSObject
 @property (nonatomic, strong) NSUUID *uuid;

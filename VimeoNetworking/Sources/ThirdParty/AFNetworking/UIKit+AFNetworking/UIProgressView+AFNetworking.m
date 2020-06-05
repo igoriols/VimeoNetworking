@@ -19,13 +19,13 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "UIProgressView+AFNetworking.h"
+#import <VimeoNetworking/UIProgressView+AFNetworking.h>
 
 #import <objc/runtime.h>
 
 #if TARGET_OS_IOS || TARGET_OS_TV
 
-#import "AFURLSessionManager.h"
+#import <VimeoNetworking/AFURLSessionManager.h>
 
 static void * AFTaskCountOfBytesSentContext = &AFTaskCountOfBytesSentContext;
 static void * AFTaskCountOfBytesReceivedContext = &AFTaskCountOfBytesReceivedContext;

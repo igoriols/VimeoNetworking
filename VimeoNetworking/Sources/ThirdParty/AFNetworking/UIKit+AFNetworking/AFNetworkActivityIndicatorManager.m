@@ -19,10 +19,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "AFNetworkActivityIndicatorManager.h"
+#import <VimeoNetworking/AFNetworkActivityIndicatorManager.h>
 
 #if TARGET_OS_IOS
-#import "AFURLSessionManager.h"
+#import <VimeoNetworking/AFURLSessionManager.h>
 
 typedef NS_ENUM(NSInteger, AFNetworkActivityManagerState) {
     AFNetworkActivityManagerStateNotActive,
