@@ -1,6 +1,6 @@
 use_frameworks!
 inhibit_all_warnings!
-platform :ios, '10.3'
+platform :ios, '10.0'
 
 workspace 'VimeoNetworking'
 project 'VimeoNetworking.xcodeproj'
@@ -22,7 +22,7 @@ target 'VimeoNetworking-tvOS' do
 end
 
 target 'VimeoNetworking-iOS' do
-    platform :ios, '10.3'
+    platform :ios, '10.0'
     shared_pods
     target 'VimeoNetworking-iOSTests' do
         test_pods

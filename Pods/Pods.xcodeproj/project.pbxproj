@@ -15,7 +15,6 @@
 			dependencies = (
 			);
 			name = "SwiftLint-tvOS";
-			productName = "SwiftLint-tvOS";
 		};
 		2B03D5FD26A26B7D62142EA4492AEB83 /* SwiftLint-iOS */ = {
 			isa = PBXAggregateTarget;
@@ -25,7 +24,6 @@
 			dependencies = (
 			);
 			name = "SwiftLint-iOS";
-			productName = "SwiftLint-iOS";
 		};
 		9F0E6E0C8BF75091EADD98FA13B1A847 /* SwiftLint-macOS */ = {
 			isa = PBXAggregateTarget;
@@ -35,88 +33,87 @@
 			dependencies = (
 			);
 			name = "SwiftLint-macOS";
-			productName = "SwiftLint-macOS";
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		010A4BA66777D03249912F28AD47ACF0 /* NSURLRequest+HTTPBodyTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = B1436D18330A050FD5920DC5B7430D61 /* NSURLRequest+HTTPBodyTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04CA418E3D8362F9FCC4599F5DAE8B8B /* OHHTTPStubsResponse+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BC2505E0171C27A1F4B2AA48D612C /* OHHTTPStubsResponse+JSON.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		010A4BA66777D03249912F28AD47ACF0 /* NSURLRequest+HTTPBodyTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = D8ED1E8494511A92615D9958AFD209B6 /* NSURLRequest+HTTPBodyTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CA418E3D8362F9FCC4599F5DAE8B8B /* OHHTTPStubsResponse+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3C4BADC350D6426C32DF3DCF7B2351 /* OHHTTPStubsResponse+JSON.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		09F9663E9776814DF059DFD15F355524 /* Pods-VimeoNetworking-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B26B9EB7D4DC3D1979A2A475448A8C /* Pods-VimeoNetworking-macOS-dummy.m */; };
 		0A9ADB8AFC45BC31011F7BD3DE5BCAA9 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 591D2A67BC5581B20944CD992B370C7B /* Pods-Example-dummy.m */; };
-		0B9BA55D8DA862000D3E1F4532395ADA /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E619B78BDCEB482FCFBB354460530A /* OHHTTPStubs+NSURLSessionConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0F8D081371E8D029F968A5407041A84C /* OHHTTPStubs-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C09BE53B5E4E99737CC24707776BB321 /* OHHTTPStubs-macOS-dummy.m */; };
-		1074FEE3739A4D680E74D5DF554BCA6C /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = AB65FA4D5337D7C4468E4565E20DD93F /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B9BA55D8DA862000D3E1F4532395ADA /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2011DB1621452BBFD34ECB8BFEAECE /* OHHTTPStubs+NSURLSessionConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0F8D081371E8D029F968A5407041A84C /* OHHTTPStubs-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB7050FDB12BDA58F66D7712271E8 /* OHHTTPStubs-macOS-dummy.m */; };
+		1074FEE3739A4D680E74D5DF554BCA6C /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D8DE01A6227DAFAA84EEE72ED8BD92 /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11B1C31A5842B37C392821068395A2D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B40EB6AABA005648DEFD5E51721FE1 /* Foundation.framework */; };
 		15726A3CB86FFDE9436BB12AE23815C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCE3383AD415E098863BA016195BA44 /* Cocoa.framework */; };
 		171DF9415948736312440A702102101A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042CFBBD18F62DCA46FC708016C8826B /* CFNetwork.framework */; };
-		19BA77D7020913D2B446EF733A0386D4 /* OHHTTPStubs-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3461F0C1C7900698B80858FE552DE0 /* OHHTTPStubs-iOS-dummy.m */; };
-		1A3DE3E01A7D1A9E3654406A9D50A315 /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D6E736549AF68DE3A7A0EC98C13C55 /* OHHTTPStubs.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		19BA77D7020913D2B446EF733A0386D4 /* OHHTTPStubs-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C79BA9A0431A6453C0A76C0D66DE351 /* OHHTTPStubs-iOS-dummy.m */; };
+		1A3DE3E01A7D1A9E3654406A9D50A315 /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 12140472F0DAD69FD281079218D46BE2 /* OHHTTPStubs.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1A44FDF35D533DFF0947539F6D191B7B /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 606F78336275FB1EC2A64A0A682A9854 /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-dummy.m */; };
 		1F0DDDFFD7C3FB10D914499AE2A0EF93 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9D3DE0074199F0CCF0750D4559B1B3 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-dummy.m */; };
-		20082A1576CDD828F795D2775F7E8269 /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 690A7A7689B856DF7D594957DF4EFCE0 /* OHHTTPStubsResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		208CF7F518C2A7772E45849E3BCE570C /* OHHTTPStubsResponse+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BC2505E0171C27A1F4B2AA48D612C /* OHHTTPStubsResponse+JSON.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2F663B755B23EE65118EDD65054A066F /* OHHTTPStubsResponse+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE204AB48B111CFD80330BAAE6D42C0 /* OHHTTPStubsResponse+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30D0A6888EDD4AAC40E5F94E5B04236E /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DDEAA63784E77E7152F6048091118C /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		313BDC86D95526DDE926F243DE7C016F /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E619B78BDCEB482FCFBB354460530A /* OHHTTPStubs+NSURLSessionConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		327A92AE24C710166F027F643126BC88 /* OHHTTPStubsMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E994982A8084B8771C2D2EA6E3D7B1F9 /* OHHTTPStubsMethodSwizzling.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		20082A1576CDD828F795D2775F7E8269 /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9399C0AACF20A1793967F691905ED3F4 /* OHHTTPStubsResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		208CF7F518C2A7772E45849E3BCE570C /* OHHTTPStubsResponse+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3C4BADC350D6426C32DF3DCF7B2351 /* OHHTTPStubsResponse+JSON.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2F663B755B23EE65118EDD65054A066F /* OHHTTPStubsResponse+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B27F764EB59F40851D6042342C9293 /* OHHTTPStubsResponse+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30D0A6888EDD4AAC40E5F94E5B04236E /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6482AB4885F55B96DC5777BA545253 /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		313BDC86D95526DDE926F243DE7C016F /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2011DB1621452BBFD34ECB8BFEAECE /* OHHTTPStubs+NSURLSessionConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		327A92AE24C710166F027F643126BC88 /* OHHTTPStubsMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D03ABD70159D006E2EAC444BA191 /* OHHTTPStubsMethodSwizzling.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		328EB322152AD2DBF520900C715A640D /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E777ED072066F9992B2D3F570373ED7B /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		380D1E294FC665D5B2EA672382E168DE /* OHHTTPStubsMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C48F7F5FA380627BD213E38B2BE9BF /* OHHTTPStubsMethodSwizzling.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3B81E13A753BE9FD5A0CED9850D15CE0 /* OHHTTPStubs-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F7B1628CD0C0B45A3E7EE07D09705D /* OHHTTPStubs-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		380D1E294FC665D5B2EA672382E168DE /* OHHTTPStubsMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D0AFD2530D396ACD5E026DED645C4D /* OHHTTPStubsMethodSwizzling.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3B81E13A753BE9FD5A0CED9850D15CE0 /* OHHTTPStubs-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F130AC1CFFDB030BECC58157A224FFA /* OHHTTPStubs-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E7A63359FA8931B78781C9B00E5B0B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B40EB6AABA005648DEFD5E51721FE1 /* Foundation.framework */; };
 		45D2AE20BDF27BA7A836F3EFE77D90AD /* Pods-VimeoNetworking-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AB03A395FAA43E82F51749651533916 /* Pods-VimeoNetworking-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49EC51F172F568C474AC4CC2988F070C /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = AB65FA4D5337D7C4468E4565E20DD93F /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A9F6592645E19B3F18379D4539B733C /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94981FA1C2103D8A5E2DE733C437140 /* OHHTTPStubsSwift.swift */; };
-		4AAF916B7B4BE2B5977A9DC1D5CF6888 /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94981FA1C2103D8A5E2DE733C437140 /* OHHTTPStubsSwift.swift */; };
-		4BDF7B80FA4ECE01B8406AAA2E9C2A41 /* OHHTTPStubsMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E994982A8084B8771C2D2EA6E3D7B1F9 /* OHHTTPStubsMethodSwizzling.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		49EC51F172F568C474AC4CC2988F070C /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D8DE01A6227DAFAA84EEE72ED8BD92 /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A9F6592645E19B3F18379D4539B733C /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08C821FD15E8C3CB6816E290306039 /* OHHTTPStubsSwift.swift */; };
+		4AAF916B7B4BE2B5977A9DC1D5CF6888 /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08C821FD15E8C3CB6816E290306039 /* OHHTTPStubsSwift.swift */; };
+		4BDF7B80FA4ECE01B8406AAA2E9C2A41 /* OHHTTPStubsMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D03ABD70159D006E2EAC444BA191 /* OHHTTPStubsMethodSwizzling.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4EA9E249F2C4A1834F2C6BC7310FE308 /* Pods-VimeoNetworking-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 100619EBDF98BB109C3E66CAE7D50B19 /* Pods-VimeoNetworking-tvOS-dummy.m */; };
 		538C46CA2259F4B8A75F572876A510A4 /* Pods-VimeoNetworking-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C94D78091D46D86339629FE8DE088645 /* Pods-VimeoNetworking-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		571A8ABB91563DF1080EEE9847F73329 /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B96B71B36184E5F89A5D2CB20560CFF /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		581C284EEFA2B3DC19EBE36ED50B895A /* NSURLRequest+HTTPBodyTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED113E3FB12DECD9E1C56514345B4C1 /* NSURLRequest+HTTPBodyTesting.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		599865AC7EF8598105E1A750852B340D /* NSURLRequest+HTTPBodyTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = B1436D18330A050FD5920DC5B7430D61 /* NSURLRequest+HTTPBodyTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		571A8ABB91563DF1080EEE9847F73329 /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB2833C691AB3137EBAF5E8511665C0 /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		581C284EEFA2B3DC19EBE36ED50B895A /* NSURLRequest+HTTPBodyTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA57B76C0477527B372C6A7038413B /* NSURLRequest+HTTPBodyTesting.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		599865AC7EF8598105E1A750852B340D /* NSURLRequest+HTTPBodyTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = D8ED1E8494511A92615D9958AFD209B6 /* NSURLRequest+HTTPBodyTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A7A0F241EBD05B0A8838811B3C77F94 /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21551D6E96858E249B6D883DB98E093D /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B427BB3867F47586EAEDAA6EA95ABE1 /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = AB65FA4D5337D7C4468E4565E20DD93F /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F1C62C0E815DF7B34D40A23B9EC465A /* OHHTTPStubsResponse+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BC2505E0171C27A1F4B2AA48D612C /* OHHTTPStubsResponse+JSON.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		636C2AC28FDB5D40A4E8579CA4A27F56 /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 690A7A7689B856DF7D594957DF4EFCE0 /* OHHTTPStubsResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5B427BB3867F47586EAEDAA6EA95ABE1 /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D8DE01A6227DAFAA84EEE72ED8BD92 /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F1C62C0E815DF7B34D40A23B9EC465A /* OHHTTPStubsResponse+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3C4BADC350D6426C32DF3DCF7B2351 /* OHHTTPStubsResponse+JSON.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		636C2AC28FDB5D40A4E8579CA4A27F56 /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9399C0AACF20A1793967F691905ED3F4 /* OHHTTPStubsResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6A35EBBCE45E5C2D13B051CF8D9226A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1271A64E4FC89769E0FC7A4346FEB7 /* Foundation.framework */; };
-		6D2B84464152C1F114E182AA8A29EC19 /* NSURLRequest+HTTPBodyTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = B1436D18330A050FD5920DC5B7430D61 /* NSURLRequest+HTTPBodyTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D2B84464152C1F114E182AA8A29EC19 /* NSURLRequest+HTTPBodyTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = D8ED1E8494511A92615D9958AFD209B6 /* NSURLRequest+HTTPBodyTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71300863B7021D194A53D479E3031E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1271A64E4FC89769E0FC7A4346FEB7 /* Foundation.framework */; };
-		732F266A51BA52E0121C203790A7FA13 /* OHHTTPStubsResponse+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE204AB48B111CFD80330BAAE6D42C0 /* OHHTTPStubsResponse+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76B5197559839D28FCB75B8CF31F069C /* OHPathHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 87FE30350E5CF6E0BA0D6939AAFF192D /* OHPathHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732F266A51BA52E0121C203790A7FA13 /* OHHTTPStubsResponse+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B27F764EB59F40851D6042342C9293 /* OHHTTPStubsResponse+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76B5197559839D28FCB75B8CF31F069C /* OHPathHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 280CE52A7F38B62AABADD8B4358A5CAD /* OHPathHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7808FCD4B604A73C37343FB725679B6E /* Pods-VimeoNetworking-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FF0767DDB0307725576593DF32DC23 /* Pods-VimeoNetworking-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A1A07C5BA302AFD199007A8C4830EBB /* NSURLRequest+HTTPBodyTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED113E3FB12DECD9E1C56514345B4C1 /* NSURLRequest+HTTPBodyTesting.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7A1A07C5BA302AFD199007A8C4830EBB /* NSURLRequest+HTTPBodyTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA57B76C0477527B372C6A7038413B /* NSURLRequest+HTTPBodyTesting.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7C4C93FDAE2F4A10D4B5F797159012AF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB80CB55A9D023F35FC136846CB72CB /* CFNetwork.framework */; };
 		8235572C74CD62B8AD0CA3953809FBC9 /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FABEB1F9E75BBA4BA51AB35017FD561 /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-dummy.m */; };
-		85021F241BED30CEF0960540F7858259 /* OHHTTPStubs-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 231B7E5DF966A3191CD36B4DE51DD0FE /* OHHTTPStubs-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8653A2A13557C9F2C68D90017A302480 /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 690A7A7689B856DF7D594957DF4EFCE0 /* OHHTTPStubsResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8656525E8C8D91A1C5B15F0E72D1C82F /* OHPathHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 87FE30350E5CF6E0BA0D6939AAFF192D /* OHPathHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89B426931FD99053E65F5870245320B1 /* OHHTTPStubsMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C48F7F5FA380627BD213E38B2BE9BF /* OHHTTPStubsMethodSwizzling.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		85021F241BED30CEF0960540F7858259 /* OHHTTPStubs-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B87195C163B07EC0D8D2600A6E1F60 /* OHHTTPStubs-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8653A2A13557C9F2C68D90017A302480 /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9399C0AACF20A1793967F691905ED3F4 /* OHHTTPStubsResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8656525E8C8D91A1C5B15F0E72D1C82F /* OHPathHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 280CE52A7F38B62AABADD8B4358A5CAD /* OHPathHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B426931FD99053E65F5870245320B1 /* OHHTTPStubsMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D0AFD2530D396ACD5E026DED645C4D /* OHHTTPStubsMethodSwizzling.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9B95CBE92A81B018EDF357615CE57EAA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCE3383AD415E098863BA016195BA44 /* Cocoa.framework */; };
-		A7F00374E29C504905844ACD383578E3 /* OHPathHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 87FE30350E5CF6E0BA0D6939AAFF192D /* OHPathHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7F00374E29C504905844ACD383578E3 /* OHPathHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 280CE52A7F38B62AABADD8B4358A5CAD /* OHPathHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD1533140B8BAD8DBEE7FF3130E26B21 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB904675871E174B7A8E9CA72D5E159 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2B556F3E16637E2844C2837EC733BB0 /* OHPathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 68462141F10BA836295E3F81B4C89AFD /* OHPathHelpers.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B2DAF38CC9CB2DD19FB3295024A8B831 /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B96B71B36184E5F89A5D2CB20560CFF /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2B556F3E16637E2844C2837EC733BB0 /* OHPathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A542B5397B901DB03C40AD1C028E8 /* OHPathHelpers.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B2DAF38CC9CB2DD19FB3295024A8B831 /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB2833C691AB3137EBAF5E8511665C0 /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B31C5D8BFF33F94636286E531F5B5BA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5E8A720F39FEED6D8F4F6C35E8EFA1 /* Foundation.framework */; };
-		B8FB3DAEE6161A41AD2D522B41399AEC /* OHHTTPStubs-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C6A23C1ED5D59B77E01F2A17FD6E6 /* OHHTTPStubs-tvOS-dummy.m */; };
+		B8FB3DAEE6161A41AD2D522B41399AEC /* OHHTTPStubs-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9938563765FBE9CE53877CD5C11936B /* OHHTTPStubs-tvOS-dummy.m */; };
 		BDDDEC5F17DF38CEC9F964BBCE26A778 /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FA1CFE6CB982015D1C2132FF01005E /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEDE883E817918B9CBCBA17482F720BF /* NSURLRequest+HTTPBodyTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED113E3FB12DECD9E1C56514345B4C1 /* NSURLRequest+HTTPBodyTesting.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BF890CEC1508B9D980C964155D715BF2 /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B96B71B36184E5F89A5D2CB20560CFF /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFCA4F4BA71712360CBFACB86F20424E /* OHHTTPStubsMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C48F7F5FA380627BD213E38B2BE9BF /* OHHTTPStubsMethodSwizzling.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BEDE883E817918B9CBCBA17482F720BF /* NSURLRequest+HTTPBodyTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA57B76C0477527B372C6A7038413B /* NSURLRequest+HTTPBodyTesting.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BF890CEC1508B9D980C964155D715BF2 /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB2833C691AB3137EBAF5E8511665C0 /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFCA4F4BA71712360CBFACB86F20424E /* OHHTTPStubsMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D0AFD2530D396ACD5E026DED645C4D /* OHHTTPStubsMethodSwizzling.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C3521BA4E38D58A9359B6C44925D26E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B40EB6AABA005648DEFD5E51721FE1 /* Foundation.framework */; };
-		C5836AEC09F5E67D84C0B9DBDBD9590E /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D6E736549AF68DE3A7A0EC98C13C55 /* OHHTTPStubs.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C6AD66282B736ABE5EDFA736AF3FA71A /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D6E736549AF68DE3A7A0EC98C13C55 /* OHHTTPStubs.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CAF96F420E4FA86E728B10F02AAE3E50 /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94981FA1C2103D8A5E2DE733C437140 /* OHHTTPStubsSwift.swift */; };
-		CCA6911806F381C9B96CD39705591022 /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DDEAA63784E77E7152F6048091118C /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE7F18E49E60B93AE77D15C558927926 /* OHPathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 68462141F10BA836295E3F81B4C89AFD /* OHPathHelpers.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C5836AEC09F5E67D84C0B9DBDBD9590E /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 12140472F0DAD69FD281079218D46BE2 /* OHHTTPStubs.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C6AD66282B736ABE5EDFA736AF3FA71A /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 12140472F0DAD69FD281079218D46BE2 /* OHHTTPStubs.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CAF96F420E4FA86E728B10F02AAE3E50 /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C08C821FD15E8C3CB6816E290306039 /* OHHTTPStubsSwift.swift */; };
+		CCA6911806F381C9B96CD39705591022 /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6482AB4885F55B96DC5777BA545253 /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE7F18E49E60B93AE77D15C558927926 /* OHPathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A542B5397B901DB03C40AD1C028E8 /* OHPathHelpers.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CF5A9795E895E4370C76418D5502032F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1271A64E4FC89769E0FC7A4346FEB7 /* Foundation.framework */; };
-		D7F5089B10DB0AB382E4A744E51B7161 /* OHHTTPStubs-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB7D1C6F9B05E11D2FF6D29951684CE /* OHHTTPStubs-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC5A7A704110992470C7C51AFFF7F3FD /* OHHTTPStubsResponse+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE204AB48B111CFD80330BAAE6D42C0 /* OHHTTPStubsResponse+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7F5089B10DB0AB382E4A744E51B7161 /* OHHTTPStubs-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C138DEC430FC513CC16032E288858245 /* OHHTTPStubs-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC5A7A704110992470C7C51AFFF7F3FD /* OHHTTPStubsResponse+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B27F764EB59F40851D6042342C9293 /* OHHTTPStubsResponse+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCD20967E34E696402B47C71F37CE3BB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCE3383AD415E098863BA016195BA44 /* Cocoa.framework */; };
-		E0418EA3302D756678B705EBED7FC47A /* OHPathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 68462141F10BA836295E3F81B4C89AFD /* OHPathHelpers.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E0418EA3302D756678B705EBED7FC47A /* OHPathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 087A542B5397B901DB03C40AD1C028E8 /* OHPathHelpers.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E48151F41D84F61F36DB5941E28D068B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1271A64E4FC89769E0FC7A4346FEB7 /* Foundation.framework */; };
-		E6869C6CAEE9D9E024FB1C4C694D6758 /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E619B78BDCEB482FCFBB354460530A /* OHHTTPStubs+NSURLSessionConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E7149DB81840635AED945AB6DD419EA4 /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DDEAA63784E77E7152F6048091118C /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E82CE10E893F929FC20D0FE02F598EE6 /* OHHTTPStubsMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E994982A8084B8771C2D2EA6E3D7B1F9 /* OHHTTPStubsMethodSwizzling.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E6869C6CAEE9D9E024FB1C4C694D6758 /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2011DB1621452BBFD34ECB8BFEAECE /* OHHTTPStubs+NSURLSessionConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E7149DB81840635AED945AB6DD419EA4 /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6482AB4885F55B96DC5777BA545253 /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E82CE10E893F929FC20D0FE02F598EE6 /* OHHTTPStubsMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4D03ABD70159D006E2EAC444BA191 /* OHHTTPStubsMethodSwizzling.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EC37689FB807C9237F5DD2A3C44DC30F /* Pods-VimeoNetworking-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E283E4F43902BF024F8B54F07DE15BA0 /* Pods-VimeoNetworking-iOS-dummy.m */; };
 		EF9F7B55E3EF21960C2989EB4A26FBF3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAA70314FD279429B01B3C02034739E /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
@@ -196,113 +193,119 @@
 
 /* Begin PBXFileReference section */
 		042CFBBD18F62DCA46FC708016C8826B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		0637BA09FB39E5DFF50FB93000ACF3D6 /* OHHTTPStubs-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubs-tvOS-prefix.pch"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		087A542B5397B901DB03C40AD1C028E8 /* OHPathHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHPathHelpers.m; path = OHHTTPStubs/Sources/OHPathHelpers/OHPathHelpers.m; sourceTree = "<group>"; };
+		08D8DE01A6227DAFAA84EEE72ED8BD92 /* Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Compatibility.h; path = OHHTTPStubs/Sources/Compatibility.h; sourceTree = "<group>"; };
 		08ED231A9A94721A882F0E5D85178402 /* Pods-VimeoNetworking-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VimeoNetworking-macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		0BB7D1C6F9B05E11D2FF6D29951684CE /* OHHTTPStubs-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubs-tvOS-umbrella.h"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		0F130AC1CFFDB030BECC58157A224FFA /* OHHTTPStubs-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubs-iOS-umbrella.h"; sourceTree = "<group>"; };
 		0FABEB1F9E75BBA4BA51AB35017FD561 /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-dummy.m"; sourceTree = "<group>"; };
 		100619EBDF98BB109C3E66CAE7D50B19 /* Pods-VimeoNetworking-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VimeoNetworking-tvOS-dummy.m"; sourceTree = "<group>"; };
-		11CB515E9196D30DFD480A2C2D89EC3C /* OHHTTPStubs-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OHHTTPStubs-iOS-Info.plist"; sourceTree = "<group>"; };
-		134A571E3137410CA56760741C6987EC /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OHHTTPStubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1628A2581C1E3EE881DC78570C989830 /* Pods_VimeoNetworking_macOS_VimeoNetworking_macOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimeoNetworking_macOS_VimeoNetworking_macOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		16FE9956ADFF908239758FBDDE65A9FF /* OHHTTPStubs-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "OHHTTPStubs-macOS-Info.plist"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS-Info.plist"; sourceTree = "<group>"; };
-		1B5912B22150CA2267AF727936E920C6 /* OHHTTPStubs-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "OHHTTPStubs-iOS.modulemap"; sourceTree = "<group>"; };
+		12140472F0DAD69FD281079218D46BE2 /* OHHTTPStubs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHHTTPStubs.m; path = OHHTTPStubs/Sources/OHHTTPStubs.m; sourceTree = "<group>"; };
+		134A571E3137410CA56760741C6987EC /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OHHTTPStubs.framework; path = "OHHTTPStubs-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1628A2581C1E3EE881DC78570C989830 /* Pods_VimeoNetworking_macOS_VimeoNetworking_macOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VimeoNetworking_macOS_VimeoNetworking_macOSTests.framework; path = "Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E7C091E194510008BAF1C7176A7B65 /* SwiftLint-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftLint-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		1B80FAFD8FB1B4A7A350CCC7E50762C5 /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-Info.plist"; sourceTree = "<group>"; };
-		1D781E041C8BE26A2F2985A606280219 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OHHTTPStubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E3461F0C1C7900698B80858FE552DE0 /* OHHTTPStubs-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OHHTTPStubs-iOS-dummy.m"; sourceTree = "<group>"; };
-		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C79BA9A0431A6453C0A76C0D66DE351 /* OHHTTPStubs-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OHHTTPStubs-iOS-dummy.m"; sourceTree = "<group>"; };
+		1D781E041C8BE26A2F2985A606280219 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OHHTTPStubs.framework; path = "OHHTTPStubs-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		210068524C2A34586F5100EE430E8507 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		21551D6E96858E249B6D883DB98E093D /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
-		2296ABE734D42DBBE2AD6980F21FE33D /* OHHTTPStubs-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OHHTTPStubs-tvOS.xcconfig"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS.xcconfig"; sourceTree = "<group>"; };
-		231B7E5DF966A3191CD36B4DE51DD0FE /* OHHTTPStubs-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubs-macOS-umbrella.h"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS-umbrella.h"; sourceTree = "<group>"; };
-		2342713CD62DFD513069823DD274D145 /* OHHTTPStubs-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "OHHTTPStubs-tvOS-Info.plist"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-Info.plist"; sourceTree = "<group>"; };
-		27A7E356B7BCD9E87987FBEB2284FD8F /* Pods_VimeoNetworking_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimeoNetworking_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25763618BBD5F7971DD1D0B5060AC340 /* OHHTTPStubs-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OHHTTPStubs-tvOS.release.xcconfig"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		26D846109B6B522FBB0D5E4A1441069E /* OHHTTPStubs-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubs-macOS-prefix.pch"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS-prefix.pch"; sourceTree = "<group>"; };
+		27A7E356B7BCD9E87987FBEB2284FD8F /* Pods_VimeoNetworking_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VimeoNetworking_tvOS.framework; path = "Pods-VimeoNetworking-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		280CE52A7F38B62AABADD8B4358A5CAD /* OHPathHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHPathHelpers.h; path = OHHTTPStubs/Sources/OHPathHelpers/OHPathHelpers.h; sourceTree = "<group>"; };
 		290C048F9735DA0392176FFFDD4C747A /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		2B96B71B36184E5F89A5D2CB20560CFF /* OHHTTPStubsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubsResponse.h; path = OHHTTPStubs/Sources/OHHTTPStubsResponse.h; sourceTree = "<group>"; };
 		2C9D3DE0074199F0CCF0750D4559B1B3 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-dummy.m"; sourceTree = "<group>"; };
+		2D55B3D918A8B1148BF3D982C3AB067F /* OHHTTPStubs-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OHHTTPStubs-macOS.release.xcconfig"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		2D8CFAAC43391F0AC3D2D06731AE21E3 /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		31B50527A5F02D8F13FEDB997BD65F1B /* Pods_VimeoNetworking_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimeoNetworking_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2011DB1621452BBFD34ECB8BFEAECE /* OHHTTPStubs+NSURLSessionConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OHHTTPStubs+NSURLSessionConfiguration.m"; path = "OHHTTPStubs/Sources/NSURLSession/OHHTTPStubs+NSURLSessionConfiguration.m"; sourceTree = "<group>"; };
+		30B27F764EB59F40851D6042342C9293 /* OHHTTPStubsResponse+JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubsResponse+JSON.h"; path = "OHHTTPStubs/Sources/JSON/OHHTTPStubsResponse+JSON.h"; sourceTree = "<group>"; };
+		316A5A5DA397E40C7DCF3427B47A71B7 /* SwiftLint-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLint-tvOS.debug.xcconfig"; path = "../SwiftLint-tvOS/SwiftLint-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		31B50527A5F02D8F13FEDB997BD65F1B /* Pods_VimeoNetworking_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VimeoNetworking_macOS.framework; path = "Pods-VimeoNetworking-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A261725422661A8ABAC754B9FD5A23 /* Pods-VimeoNetworking-macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VimeoNetworking-macOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		34D6E736549AF68DE3A7A0EC98C13C55 /* OHHTTPStubs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHHTTPStubs.m; path = OHHTTPStubs/Sources/OHHTTPStubs.m; sourceTree = "<group>"; };
-		3704510D5BFFE174CD65F12B8A2B2CE1 /* OHHTTPStubs-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "OHHTTPStubs-macOS.modulemap"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS.modulemap"; sourceTree = "<group>"; };
+		37B01FC0E10ECF97A13263BDB502AD5D /* OHHTTPStubs-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "OHHTTPStubs-tvOS.modulemap"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS.modulemap"; sourceTree = "<group>"; };
 		3A08C5F822F7127BCA1CB31F3281F369 /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-Info.plist"; sourceTree = "<group>"; };
+		3AB2833C691AB3137EBAF5E8511665C0 /* OHHTTPStubsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubsResponse.h; path = OHHTTPStubs/Sources/OHHTTPStubsResponse.h; sourceTree = "<group>"; };
+		3B0CBB6E59128A750DB0A7036F517B7F /* OHHTTPStubs-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OHHTTPStubs-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		3C08C821FD15E8C3CB6816E290306039 /* OHHTTPStubsSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OHHTTPStubsSwift.swift; path = OHHTTPStubs/Sources/Swift/OHHTTPStubsSwift.swift; sourceTree = "<group>"; };
 		3E1271A64E4FC89769E0FC7A4346FEB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		41DB31F741632C54EC235CCC1435E27D /* Pods-VimeoNetworking-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VimeoNetworking-iOS-Info.plist"; sourceTree = "<group>"; };
-		45DDEAA63784E77E7152F6048091118C /* OHHTTPStubs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubs.h; path = OHHTTPStubs/Sources/OHHTTPStubs.h; sourceTree = "<group>"; };
 		472993D866E60BEA58C870401B63C382 /* Pods-VimeoNetworking-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VimeoNetworking-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		49458A82A7A3F3B1F01B4391BDE4E147 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OHHTTPStubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49458A82A7A3F3B1F01B4391BDE4E147 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OHHTTPStubs.framework; path = "OHHTTPStubs-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCE3383AD415E098863BA016195BA44 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		4BFA57B76C0477527B372C6A7038413B /* NSURLRequest+HTTPBodyTesting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+HTTPBodyTesting.m"; path = "OHHTTPStubs/Sources/NSURLSession/NSURLRequest+HTTPBodyTesting.m"; sourceTree = "<group>"; };
 		50FA1CFE6CB982015D1C2132FF01005E /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-umbrella.h"; sourceTree = "<group>"; };
 		52823F70883E828C83B17B89575EABC1 /* Pods-VimeoNetworking-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VimeoNetworking-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		52FF0767DDB0307725576593DF32DC23 /* Pods-VimeoNetworking-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VimeoNetworking-macOS-umbrella.h"; sourceTree = "<group>"; };
+		5380B8BE7B654ACD8ECF08DFA4D03DD2 /* SwiftLint-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLint-tvOS.release.xcconfig"; path = "../SwiftLint-tvOS/SwiftLint-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		55EACFE7C8F39F095EDBF5B328567C81 /* Pods-VimeoNetworking-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VimeoNetworking-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		591D2A67BC5581B20944CD992B370C7B /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		59F8058A170FA9F97888F9B94BEABEAB /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5ABC97283A5B5541CBCC939344186739 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		5ED113E3FB12DECD9E1C56514345B4C1 /* NSURLRequest+HTTPBodyTesting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+HTTPBodyTesting.m"; path = "OHHTTPStubs/Sources/NSURLSession/NSURLRequest+HTTPBodyTesting.m"; sourceTree = "<group>"; };
 		606F78336275FB1EC2A64A0A682A9854 /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-dummy.m"; sourceTree = "<group>"; };
-		6203CCF63C71CBA1F68316F429F3361B /* OHHTTPStubs-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubs-tvOS-prefix.pch"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-prefix.pch"; sourceTree = "<group>"; };
-		64C48F7F5FA380627BD213E38B2BE9BF /* OHHTTPStubsMethodSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubsMethodSwizzling.h; path = OHHTTPStubs/Sources/NSURLSession/OHHTTPStubsMethodSwizzling.h; sourceTree = "<group>"; };
 		66B40EB6AABA005648DEFD5E51721FE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68462141F10BA836295E3F81B4C89AFD /* OHPathHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHPathHelpers.m; path = OHHTTPStubs/Sources/OHPathHelpers/OHPathHelpers.m; sourceTree = "<group>"; };
-		685F98B469B29BF80C5E8DE8C3F676CC /* OHHTTPStubs-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubs-iOS-prefix.pch"; sourceTree = "<group>"; };
 		688618494E871663BFEFDE335AB424DA /* Pods-VimeoNetworking-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VimeoNetworking-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		690A7A7689B856DF7D594957DF4EFCE0 /* OHHTTPStubsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHHTTPStubsResponse.m; path = OHHTTPStubs/Sources/OHHTTPStubsResponse.m; sourceTree = "<group>"; };
 		6A241438B6BE2AF611A8F2F8D2809202 /* Pods-VimeoNetworking-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VimeoNetworking-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6AB03A395FAA43E82F51749651533916 /* Pods-VimeoNetworking-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VimeoNetworking-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		6E3A8547C18C8CDF0711643D7E2812A6 /* OHHTTPStubs-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OHHTTPStubs-iOS-Info.plist"; sourceTree = "<group>"; };
 		6F4115CF0A80FC228686EB10562F82C6 /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		70C652866BC9BCA5A7265CE7AAD2AF75 /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		75364191FB43C0E6FF876BC5428B5CAC /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests.modulemap"; sourceTree = "<group>"; };
+		767C9E97B54043525F71F1E97BC2FBDE /* OHHTTPStubs-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubs-iOS-prefix.pch"; sourceTree = "<group>"; };
 		80AECCC2E0B67642600852B62EDAE5E6 /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests.modulemap"; sourceTree = "<group>"; };
-		842D09BB9ED10C85B0E3FCE1AD6F211A /* SwiftLint-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftLint-iOS.xcconfig"; sourceTree = "<group>"; };
-		87FE30350E5CF6E0BA0D6939AAFF192D /* OHPathHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHPathHelpers.h; path = OHHTTPStubs/Sources/OHPathHelpers/OHPathHelpers.h; sourceTree = "<group>"; };
+		868FB7050FDB12BDA58F66D7712271E8 /* OHHTTPStubs-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OHHTTPStubs-macOS-dummy.m"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS-dummy.m"; sourceTree = "<group>"; };
 		893BB156B7399EF7B824203ACCBF2F25 /* Pods-VimeoNetworking-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VimeoNetworking-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		95F7B1628CD0C0B45A3E7EE07D09705D /* OHHTTPStubs-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubs-iOS-umbrella.h"; sourceTree = "<group>"; };
+		8E95D64CEA4FC0AB98DC43F981C0EA34 /* OHHTTPStubs-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "OHHTTPStubs-tvOS-Info.plist"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-Info.plist"; sourceTree = "<group>"; };
+		9046D5139F5ABCD897534479D053719C /* OHHTTPStubs-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "OHHTTPStubs-macOS.modulemap"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS.modulemap"; sourceTree = "<group>"; };
+		9399C0AACF20A1793967F691905ED3F4 /* OHHTTPStubsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHHTTPStubsResponse.m; path = OHHTTPStubs/Sources/OHHTTPStubsResponse.m; sourceTree = "<group>"; };
 		97480E3A6CC42B5F9280B884B1757DDC /* Pods-VimeoNetworking-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VimeoNetworking-tvOS.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DCE1DC905E1EFFD7FC40C94FF28B1E7 /* OHHTTPStubs-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubs-macOS-prefix.pch"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS-prefix.pch"; sourceTree = "<group>"; };
+		99D0AFD2530D396ACD5E026DED645C4D /* OHHTTPStubsMethodSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubsMethodSwizzling.h; path = OHHTTPStubs/Sources/NSURLSession/OHHTTPStubsMethodSwizzling.h; sourceTree = "<group>"; };
+		9C6482AB4885F55B96DC5777BA545253 /* OHHTTPStubs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubs.h; path = OHHTTPStubs/Sources/OHHTTPStubs.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A235D3CD9F2796C6279E5631433C6ACC /* Pods-VimeoNetworking-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VimeoNetworking-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		A37B5E8D328CFDEA0EA6D200CE27EDF5 /* SwiftLint-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftLint-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A4B26B9EB7D4DC3D1979A2A475448A8C /* Pods-VimeoNetworking-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VimeoNetworking-macOS-dummy.m"; sourceTree = "<group>"; };
 		A80531F6E290537383DC419B6B0376F8 /* Pods-VimeoNetworking-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VimeoNetworking-macOS-Info.plist"; sourceTree = "<group>"; };
 		AAAA70314FD279429B01B3C02034739E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		AB2949A459A55EAA2726017C604D2454 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-Info.plist"; sourceTree = "<group>"; };
-		AB65FA4D5337D7C4468E4565E20DD93F /* Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Compatibility.h; path = OHHTTPStubs/Sources/Compatibility.h; sourceTree = "<group>"; };
+		ABCF1749DC9E29153230B02998D5FEFC /* SwiftLint-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLint-macOS.release.xcconfig"; path = "../SwiftLint-macOS/SwiftLint-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		AC9C32E31A749CC90C77541BFB1E844A /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
-		AD2BD34979D3E1B9D7C25BB240D4214E /* OHHTTPStubs-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "OHHTTPStubs-tvOS.modulemap"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS.modulemap"; sourceTree = "<group>"; };
 		AF201769A43635F328316EB3499CB87A /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests.modulemap"; sourceTree = "<group>"; };
-		AF3F9AD19945DD7874C8858D0152BE7F /* Pods_VimeoNetworking_iOS_VimeoNetworking_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimeoNetworking_iOS_VimeoNetworking_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3F9AD19945DD7874C8858D0152BE7F /* Pods_VimeoNetworking_iOS_VimeoNetworking_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VimeoNetworking_iOS_VimeoNetworking_iOSTests.framework; path = "Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF979613F4F20D08ECF17CE41EA7ED4F /* OHHTTPStubs-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OHHTTPStubs-tvOS.debug.xcconfig"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		AF9EE59DA7F7DF2014D8A7F73A8B3D0A /* Pods-VimeoNetworking-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VimeoNetworking-macOS.modulemap"; sourceTree = "<group>"; };
-		B1436D18330A050FD5920DC5B7430D61 /* NSURLRequest+HTTPBodyTesting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+HTTPBodyTesting.h"; path = "OHHTTPStubs/Sources/NSURLSession/NSURLRequest+HTTPBodyTesting.h"; sourceTree = "<group>"; };
-		B29BC2505E0171C27A1F4B2AA48D612C /* OHHTTPStubsResponse+JSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OHHTTPStubsResponse+JSON.m"; path = "OHHTTPStubs/Sources/JSON/OHHTTPStubsResponse+JSON.m"; sourceTree = "<group>"; };
 		B2FE029DDE02C51309B4A448D787A31F /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B64C04D331D4BF2F2B7F69F66911D091 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BB163DD47CCE56AA63C2D2EFEF099D62 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-frameworks.sh"; sourceTree = "<group>"; };
-		BB3C80A39310867D2C953F01E2791FAE /* OHHTTPStubs-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OHHTTPStubs-macOS.xcconfig"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS.xcconfig"; sourceTree = "<group>"; };
 		BB8B66D3BB386649A8E424272AD594AA /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BC8207166425789DA7E1CE38C2F5D1B4 /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BD72D72C24F2EE78A26ED7EECB12E654 /* Pods_VimeoNetworking_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimeoNetworking_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDE204AB48B111CFD80330BAAE6D42C0 /* OHHTTPStubsResponse+JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubsResponse+JSON.h"; path = "OHHTTPStubs/Sources/JSON/OHHTTPStubsResponse+JSON.h"; sourceTree = "<group>"; };
-		C09BE53B5E4E99737CC24707776BB321 /* OHHTTPStubs-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OHHTTPStubs-macOS-dummy.m"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS-dummy.m"; sourceTree = "<group>"; };
+		BD72D72C24F2EE78A26ED7EECB12E654 /* Pods_VimeoNetworking_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VimeoNetworking_iOS.framework; path = "Pods-VimeoNetworking-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C138DEC430FC513CC16032E288858245 /* OHHTTPStubs-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubs-tvOS-umbrella.h"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		C750D538E8C2D5B43C4A63467B2783C6 /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C78210E9999EE3EBD5D304A4BA018A7D /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C94981FA1C2103D8A5E2DE733C437140 /* OHHTTPStubsSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OHHTTPStubsSwift.swift; path = OHHTTPStubs/Sources/Swift/OHHTTPStubsSwift.swift; sourceTree = "<group>"; };
 		C94D78091D46D86339629FE8DE088645 /* Pods-VimeoNetworking-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VimeoNetworking-iOS-umbrella.h"; sourceTree = "<group>"; };
 		CA94182BA4799C83C718CB222887DF13 /* Pods-VimeoNetworking-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VimeoNetworking-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC7E9EF56119C5048540AE14B7FFE323 /* SwiftLint-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLint-tvOS.xcconfig"; path = "../SwiftLint-tvOS/SwiftLint-tvOS.xcconfig"; sourceTree = "<group>"; };
+		CB90A587D833324200651BE01B078A03 /* OHHTTPStubs-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "OHHTTPStubs-iOS.modulemap"; sourceTree = "<group>"; };
 		CDB904675871E174B7A8E9CA72D5E159 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-umbrella.h"; sourceTree = "<group>"; };
-		D0CAFE40E287A8EA64A9732D9AC37872 /* OHHTTPStubs-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OHHTTPStubs-iOS.xcconfig"; sourceTree = "<group>"; };
-		D0D4AA9E6949D4E6502E93B8E163C709 /* SwiftLint-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLint-macOS.xcconfig"; path = "../SwiftLint-macOS/SwiftLint-macOS.xcconfig"; sourceTree = "<group>"; };
+		CE107FBDD4D1929F30099F29F273FD94 /* OHHTTPStubs-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OHHTTPStubs-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D16115A3FFF1E9F14CA5F37DD0BF4EF7 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
-		D5E619B78BDCEB482FCFBB354460530A /* OHHTTPStubs+NSURLSessionConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OHHTTPStubs+NSURLSessionConfiguration.m"; path = "OHHTTPStubs/Sources/NSURLSession/OHHTTPStubs+NSURLSessionConfiguration.m"; sourceTree = "<group>"; };
 		D8BE626FF51AB3B7E053231D3A994035 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8ED1E8494511A92615D9958AFD209B6 /* NSURLRequest+HTTPBodyTesting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+HTTPBodyTesting.h"; path = "OHHTTPStubs/Sources/NSURLSession/NSURLRequest+HTTPBodyTesting.h"; sourceTree = "<group>"; };
+		D9938563765FBE9CE53877CD5C11936B /* OHHTTPStubs-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OHHTTPStubs-tvOS-dummy.m"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-dummy.m"; sourceTree = "<group>"; };
 		DB932F4D6220A7EC05261CF5AC26AC54 /* Pods-VimeoNetworking-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VimeoNetworking-iOS.modulemap"; sourceTree = "<group>"; };
 		DC0B55478682862488D5C48DBDE65EE8 /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		DDA4D03ABD70159D006E2EAC444BA191 /* OHHTTPStubsMethodSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHHTTPStubsMethodSwizzling.m; path = OHHTTPStubs/Sources/NSURLSession/OHHTTPStubsMethodSwizzling.m; sourceTree = "<group>"; };
 		E283E4F43902BF024F8B54F07DE15BA0 /* Pods-VimeoNetworking-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VimeoNetworking-iOS-dummy.m"; sourceTree = "<group>"; };
 		E35D9AF1BE8FEF1DC2EF0154FABB1BCF /* Pods-VimeoNetworking-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VimeoNetworking-tvOS-Info.plist"; sourceTree = "<group>"; };
 		E777ED072066F9992B2D3F570373ED7B /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		E994982A8084B8771C2D2EA6E3D7B1F9 /* OHHTTPStubsMethodSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHHTTPStubsMethodSwizzling.m; path = OHHTTPStubs/Sources/NSURLSession/OHHTTPStubsMethodSwizzling.m; sourceTree = "<group>"; };
+		E9B87195C163B07EC0D8D2600A6E1F60 /* OHHTTPStubs-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubs-macOS-umbrella.h"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS-umbrella.h"; sourceTree = "<group>"; };
+		EB3C4BADC350D6426C32DF3DCF7B2351 /* OHHTTPStubsResponse+JSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OHHTTPStubsResponse+JSON.m"; path = "OHHTTPStubs/Sources/JSON/OHHTTPStubsResponse+JSON.m"; sourceTree = "<group>"; };
+		ED09E3F82975D8DB36AAFDB88A36D108 /* OHHTTPStubs-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "OHHTTPStubs-macOS-Info.plist"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS-Info.plist"; sourceTree = "<group>"; };
 		EEB80CB55A9D023F35FC136846CB72CB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		F08577DD84F413AC1DEAA0FC2CC2FE2E /* Pods_VimeoNetworking_tvOS_VimeoNetworking_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimeoNetworking_tvOS_VimeoNetworking_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F31C6A23C1ED5D59B77E01F2A17FD6E6 /* OHHTTPStubs-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OHHTTPStubs-tvOS-dummy.m"; path = "../OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-dummy.m"; sourceTree = "<group>"; };
+		F08577DD84F413AC1DEAA0FC2CC2FE2E /* Pods_VimeoNetworking_tvOS_VimeoNetworking_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VimeoNetworking_tvOS_VimeoNetworking_tvOSTests.framework; path = "Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40A39C4539B3875AB50E7314FD955F1 /* Pods-VimeoNetworking-macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VimeoNetworking-macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4798FDC58219C64F830FF57869EF40C /* SwiftLint-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftLint-macOS.debug.xcconfig"; path = "../SwiftLint-macOS/SwiftLint-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F8EB2D96D24E7CCC41AB25BD7626C893 /* OHHTTPStubs-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "OHHTTPStubs-macOS.debug.xcconfig"; path = "../OHHTTPStubs-macOS/OHHTTPStubs-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF77C0E6A63E66FDEF3AE094838BA07 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FB5E8A720F39FEED6D8F4F6C35E8EFA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FE3AF51739E9BCAEC3F165F57453D012 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
@@ -398,24 +401,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1482C938C72AD68E4B8CEF262248D635 /* Swift */ = {
+		04E63613AA5E88D92A5F7737AD38C68C /* OHPathHelpers */ = {
 			isa = PBXGroup;
 			children = (
-				C94981FA1C2103D8A5E2DE733C437140 /* OHHTTPStubsSwift.swift */,
+				280CE52A7F38B62AABADD8B4358A5CAD /* OHPathHelpers.h */,
+				087A542B5397B901DB03C40AD1C028E8 /* OHPathHelpers.m */,
 			);
-			name = Swift;
+			name = OHPathHelpers;
 			sourceTree = "<group>";
 		};
-		1D6CA9FFF4927F79B2380D6E416CB530 /* Core */ = {
+		0B20581EE9CADD02767D50E152EA8A0F /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				AB65FA4D5337D7C4468E4565E20DD93F /* Compatibility.h */,
-				45DDEAA63784E77E7152F6048091118C /* OHHTTPStubs.h */,
-				34D6E736549AF68DE3A7A0EC98C13C55 /* OHHTTPStubs.m */,
-				2B96B71B36184E5F89A5D2CB20560CFF /* OHHTTPStubsResponse.h */,
-				690A7A7689B856DF7D594957DF4EFCE0 /* OHHTTPStubsResponse.m */,
+				D8ED1E8494511A92615D9958AFD209B6 /* NSURLRequest+HTTPBodyTesting.h */,
+				4BFA57B76C0477527B372C6A7038413B /* NSURLRequest+HTTPBodyTesting.m */,
+				2E2011DB1621452BBFD34ECB8BFEAECE /* OHHTTPStubs+NSURLSessionConfiguration.m */,
+				99D0AFD2530D396ACD5E026DED645C4D /* OHHTTPStubsMethodSwizzling.h */,
+				DDA4D03ABD70159D006E2EAC444BA191 /* OHHTTPStubsMethodSwizzling.m */,
 			);
-			name = Core;
+			name = NSURLSession;
 			sourceTree = "<group>";
 		};
 		1E86698BB2803544E5E01C14AA4D88E0 /* Frameworks */ = {
@@ -428,15 +432,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		58F6BDCC416FE170CAADDA0D9A5FB5EA /* Support Files */ = {
+		5307D5658C3E9220F700E98427AE479D /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				842D09BB9ED10C85B0E3FCE1AD6F211A /* SwiftLint-iOS.xcconfig */,
-				D0D4AA9E6949D4E6502E93B8E163C709 /* SwiftLint-macOS.xcconfig */,
-				CC7E9EF56119C5048540AE14B7FFE323 /* SwiftLint-tvOS.xcconfig */,
+				3C08C821FD15E8C3CB6816E290306039 /* OHHTTPStubsSwift.swift */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftLint-iOS";
+			name = Swift;
 			sourceTree = "<group>";
 		};
 		5D2387ECDB70BA7DC547F3B3FDEF3443 /* Pods-VimeoNetworking-macOS */ = {
@@ -465,6 +466,44 @@
 			name = "OS X";
 			sourceTree = "<group>";
 		};
+		6182E47AF88B0188070B6C42359A3AEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB90A587D833324200651BE01B078A03 /* OHHTTPStubs-iOS.modulemap */,
+				1C79BA9A0431A6453C0A76C0D66DE351 /* OHHTTPStubs-iOS-dummy.m */,
+				6E3A8547C18C8CDF0711643D7E2812A6 /* OHHTTPStubs-iOS-Info.plist */,
+				767C9E97B54043525F71F1E97BC2FBDE /* OHHTTPStubs-iOS-prefix.pch */,
+				0F130AC1CFFDB030BECC58157A224FFA /* OHHTTPStubs-iOS-umbrella.h */,
+				CE107FBDD4D1929F30099F29F273FD94 /* OHHTTPStubs-iOS.debug.xcconfig */,
+				3B0CBB6E59128A750DB0A7036F517B7F /* OHHTTPStubs-iOS.release.xcconfig */,
+				9046D5139F5ABCD897534479D053719C /* OHHTTPStubs-macOS.modulemap */,
+				868FB7050FDB12BDA58F66D7712271E8 /* OHHTTPStubs-macOS-dummy.m */,
+				ED09E3F82975D8DB36AAFDB88A36D108 /* OHHTTPStubs-macOS-Info.plist */,
+				26D846109B6B522FBB0D5E4A1441069E /* OHHTTPStubs-macOS-prefix.pch */,
+				E9B87195C163B07EC0D8D2600A6E1F60 /* OHHTTPStubs-macOS-umbrella.h */,
+				F8EB2D96D24E7CCC41AB25BD7626C893 /* OHHTTPStubs-macOS.debug.xcconfig */,
+				2D55B3D918A8B1148BF3D982C3AB067F /* OHHTTPStubs-macOS.release.xcconfig */,
+				37B01FC0E10ECF97A13263BDB502AD5D /* OHHTTPStubs-tvOS.modulemap */,
+				D9938563765FBE9CE53877CD5C11936B /* OHHTTPStubs-tvOS-dummy.m */,
+				8E95D64CEA4FC0AB98DC43F981C0EA34 /* OHHTTPStubs-tvOS-Info.plist */,
+				0637BA09FB39E5DFF50FB93000ACF3D6 /* OHHTTPStubs-tvOS-prefix.pch */,
+				C138DEC430FC513CC16032E288858245 /* OHHTTPStubs-tvOS-umbrella.h */,
+				AF979613F4F20D08ECF17CE41EA7ED4F /* OHHTTPStubs-tvOS.debug.xcconfig */,
+				25763618BBD5F7971DD1D0B5060AC340 /* OHHTTPStubs-tvOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OHHTTPStubs-iOS";
+			sourceTree = "<group>";
+		};
+		661B8F2F2ECAA454C756800EC469B27F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				30B27F764EB59F40851D6042342C9293 /* OHHTTPStubsResponse+JSON.h */,
+				EB3C4BADC350D6426C32DF3DCF7B2351 /* OHHTTPStubsResponse+JSON.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
 		69770458606C9E3ACDD5A7E4AD58873C /* Pods-VimeoNetworking-tvOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -481,16 +520,13 @@
 			path = "Target Support Files/Pods-VimeoNetworking-tvOS";
 			sourceTree = "<group>";
 		};
-		6CE065863719A9AE10F645EF37C9D48B /* NSURLSession */ = {
+		699C337070987F6E031F42C6E1C55C97 /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				B1436D18330A050FD5920DC5B7430D61 /* NSURLRequest+HTTPBodyTesting.h */,
-				5ED113E3FB12DECD9E1C56514345B4C1 /* NSURLRequest+HTTPBodyTesting.m */,
-				D5E619B78BDCEB482FCFBB354460530A /* OHHTTPStubs+NSURLSessionConfiguration.m */,
-				64C48F7F5FA380627BD213E38B2BE9BF /* OHHTTPStubsMethodSwizzling.h */,
-				E994982A8084B8771C2D2EA6E3D7B1F9 /* OHHTTPStubsMethodSwizzling.m */,
+				D41A7C9F5819EFB84DBEDA5FBA545085 /* Support Files */,
 			);
-			name = NSURLSession;
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		769C63C0579E124A8F57C6ACDE140D07 /* tvOS */ = {
@@ -502,30 +538,16 @@
 			name = tvOS;
 			sourceTree = "<group>";
 		};
-		A1615E27DC70618E7B97455B33A85DD9 /* JSON */ = {
+		88B392EF06D7D2F0793953C9B4E5A161 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				BDE204AB48B111CFD80330BAAE6D42C0 /* OHHTTPStubsResponse+JSON.h */,
-				B29BC2505E0171C27A1F4B2AA48D612C /* OHHTTPStubsResponse+JSON.m */,
+				08D8DE01A6227DAFAA84EEE72ED8BD92 /* Compatibility.h */,
+				9C6482AB4885F55B96DC5777BA545253 /* OHHTTPStubs.h */,
+				12140472F0DAD69FD281079218D46BE2 /* OHHTTPStubs.m */,
+				3AB2833C691AB3137EBAF5E8511665C0 /* OHHTTPStubsResponse.h */,
+				9399C0AACF20A1793967F691905ED3F4 /* OHHTTPStubsResponse.m */,
 			);
-			name = JSON;
-			sourceTree = "<group>";
-		};
-		A837C76881F02D67F604BECAE7DC6808 /* OHPathHelpers */ = {
-			isa = PBXGroup;
-			children = (
-				87FE30350E5CF6E0BA0D6939AAFF192D /* OHPathHelpers.h */,
-				68462141F10BA836295E3F81B4C89AFD /* OHPathHelpers.m */,
-			);
-			name = OHPathHelpers;
-			sourceTree = "<group>";
-		};
-		AAE91DDD5E642307D704432D177FF081 /* SwiftLint */ = {
-			isa = PBXGroup;
-			children = (
-				58F6BDCC416FE170CAADDA0D9A5FB5EA /* Support Files */,
-			);
-			path = SwiftLint;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		AE0A20E877019E6AF33FA8784D50A06B /* iOS */ = {
@@ -584,32 +606,6 @@
 			path = "Target Support Files/Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests";
 			sourceTree = "<group>";
 		};
-		C818A0B6CD6F1190943F6DE83F0FB794 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1B5912B22150CA2267AF727936E920C6 /* OHHTTPStubs-iOS.modulemap */,
-				D0CAFE40E287A8EA64A9732D9AC37872 /* OHHTTPStubs-iOS.xcconfig */,
-				1E3461F0C1C7900698B80858FE552DE0 /* OHHTTPStubs-iOS-dummy.m */,
-				11CB515E9196D30DFD480A2C2D89EC3C /* OHHTTPStubs-iOS-Info.plist */,
-				685F98B469B29BF80C5E8DE8C3F676CC /* OHHTTPStubs-iOS-prefix.pch */,
-				95F7B1628CD0C0B45A3E7EE07D09705D /* OHHTTPStubs-iOS-umbrella.h */,
-				3704510D5BFFE174CD65F12B8A2B2CE1 /* OHHTTPStubs-macOS.modulemap */,
-				BB3C80A39310867D2C953F01E2791FAE /* OHHTTPStubs-macOS.xcconfig */,
-				C09BE53B5E4E99737CC24707776BB321 /* OHHTTPStubs-macOS-dummy.m */,
-				16FE9956ADFF908239758FBDDE65A9FF /* OHHTTPStubs-macOS-Info.plist */,
-				9DCE1DC905E1EFFD7FC40C94FF28B1E7 /* OHHTTPStubs-macOS-prefix.pch */,
-				231B7E5DF966A3191CD36B4DE51DD0FE /* OHHTTPStubs-macOS-umbrella.h */,
-				AD2BD34979D3E1B9D7C25BB240D4214E /* OHHTTPStubs-tvOS.modulemap */,
-				2296ABE734D42DBBE2AD6980F21FE33D /* OHHTTPStubs-tvOS.xcconfig */,
-				F31C6A23C1ED5D59B77E01F2A17FD6E6 /* OHHTTPStubs-tvOS-dummy.m */,
-				2342713CD62DFD513069823DD274D145 /* OHHTTPStubs-tvOS-Info.plist */,
-				6203CCF63C71CBA1F68316F429F3361B /* OHHTTPStubs-tvOS-prefix.pch */,
-				0BB7D1C6F9B05E11D2FF6D29951684CE /* OHHTTPStubs-tvOS-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/OHHTTPStubs-iOS";
-			sourceTree = "<group>";
-		};
 		CCA5260AA9DB89AA5F0445C8ABD9AF89 /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -638,17 +634,18 @@
 			);
 			sourceTree = "<group>";
 		};
-		DED1A771A3972FBB1D7E292ABC4A1DB3 /* OHHTTPStubs */ = {
+		D41A7C9F5819EFB84DBEDA5FBA545085 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1D6CA9FFF4927F79B2380D6E416CB530 /* Core */,
-				A1615E27DC70618E7B97455B33A85DD9 /* JSON */,
-				6CE065863719A9AE10F645EF37C9D48B /* NSURLSession */,
-				A837C76881F02D67F604BECAE7DC6808 /* OHPathHelpers */,
-				C818A0B6CD6F1190943F6DE83F0FB794 /* Support Files */,
-				1482C938C72AD68E4B8CEF262248D635 /* Swift */,
+				A37B5E8D328CFDEA0EA6D200CE27EDF5 /* SwiftLint-iOS.debug.xcconfig */,
+				18E7C091E194510008BAF1C7176A7B65 /* SwiftLint-iOS.release.xcconfig */,
+				F4798FDC58219C64F830FF57869EF40C /* SwiftLint-macOS.debug.xcconfig */,
+				ABCF1749DC9E29153230B02998D5FEFC /* SwiftLint-macOS.release.xcconfig */,
+				316A5A5DA397E40C7DCF3427B47A71B7 /* SwiftLint-tvOS.debug.xcconfig */,
+				5380B8BE7B654ACD8ECF08DFA4D03DD2 /* SwiftLint-tvOS.release.xcconfig */,
 			);
-			path = OHHTTPStubs;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint-iOS";
 			sourceTree = "<group>";
 		};
 		E02B81F2AFFF4E0EB97E948232176797 /* Pods-VimeoNetworking-iOS */ = {
@@ -687,10 +684,24 @@
 		EB3F45EE5A4EBCDE1751B69050A61D72 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DED1A771A3972FBB1D7E292ABC4A1DB3 /* OHHTTPStubs */,
-				AAE91DDD5E642307D704432D177FF081 /* SwiftLint */,
+				F0E00D9DDD6331801A2D5CCDF45E1DC8 /* OHHTTPStubs */,
+				699C337070987F6E031F42C6E1C55C97 /* SwiftLint */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0E00D9DDD6331801A2D5CCDF45E1DC8 /* OHHTTPStubs */ = {
+			isa = PBXGroup;
+			children = (
+				88B392EF06D7D2F0793953C9B4E5A161 /* Core */,
+				661B8F2F2ECAA454C756800EC469B27F /* JSON */,
+				0B20581EE9CADD02767D50E152EA8A0F /* NSURLSession */,
+				04E63613AA5E88D92A5F7737AD38C68C /* OHPathHelpers */,
+				6182E47AF88B0188070B6C42359A3AEC /* Support Files */,
+				5307D5658C3E9220F700E98427AE479D /* Swift */,
+			);
+			name = OHHTTPStubs;
+			path = OHHTTPStubs;
 			sourceTree = "<group>";
 		};
 		F7B5D5A9F9F874C544F2C28C26FFB893 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests */ = {
@@ -1014,7 +1025,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -1328,9 +1339,9 @@
 			};
 			name = Release;
 		};
-		02EB66C0EEADC38E657D04F68D792061 /* Release */ = {
+		0C7A9370990C4DD381B832FEC2CBE3A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 210068524C2A34586F5100EE430E8507 /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 59F8058A170FA9F97888F9B94BEABEAB /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1343,16 +1354,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests/Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests/Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1367,26 +1378,71 @@
 			};
 			name = Release;
 		};
-		1E34695574BBDA6D1C7751A8A3F7A973 /* Release */ = {
+		22E5C4685380AC956682131AE835E064 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 842D09BB9ED10C85B0E3FCE1AD6F211A /* SwiftLint-iOS.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
-					"@executable_path/Frameworks",
 				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
-		21D9652AD1A71BEDAAC8C44DD090D18D /* Release */ = {
+		2D21B0BB3316A60143F65EB5CB89FD28 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC7E9EF56119C5048540AE14B7FFE323 /* SwiftLint-tvOS.xcconfig */;
+			baseConfigurationReference = 316A5A5DA397E40C7DCF3427B47A71B7 /* SwiftLint-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1397,132 +1453,6 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		25C5880CA0E8C502FCDFF2FABE22B9B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 842D09BB9ED10C85B0E3FCE1AD6F211A /* SwiftLint-iOS.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		277E5D642685B8072D8F922C24729994 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB8B66D3BB386649A8E424272AD594AA /* Pods-Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2ED6E3249DF8370F35D7F1FF7963A6A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2296ABE734D42DBBE2AD6980F21FE33D /* OHHTTPStubs-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-tvOS/OHHTTPStubs-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = OHHTTPStubs;
-				PRODUCT_NAME = OHHTTPStubs;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3751ECECC861E6324F24C225DAA70E8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB3C80A39310867D2C953F01E2791FAE /* OHHTTPStubs-macOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-macOS/OHHTTPStubs-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-macOS/OHHTTPStubs-macOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-macOS/OHHTTPStubs-macOS.modulemap";
-				PRODUCT_MODULE_NAME = OHHTTPStubs;
-				PRODUCT_NAME = OHHTTPStubs;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1563,11 +1493,82 @@
 			};
 			name = Debug;
 		};
+		50A7DAB59984C827A2E240F03B7A04B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF979613F4F20D08ECF17CE41EA7ED4F /* OHHTTPStubs-tvOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-tvOS/OHHTTPStubs-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-tvOS/OHHTTPStubs-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = OHHTTPStubs;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55961EE46242548C1D5D2A80F8E715CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE107FBDD4D1929F30099F29F273FD94 /* OHHTTPStubs-iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS.modulemap";
+				PRODUCT_MODULE_NAME = OHHTTPStubs;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5D5B541F65C7C5FCA674D2C9FE72E0C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08ED231A9A94721A882F0E5D85178402 /* Pods-VimeoNetworking-macOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1607,6 +1608,7 @@
 			baseConfigurationReference = C78210E9999EE3EBD5D304A4BA018A7D /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1641,12 +1643,10 @@
 			};
 			name = Debug;
 		};
-		621E2EC3F9BB1F602823568B515B9E10 /* Release */ = {
+		76B1AF110A8F163B007F2F2CFCFEB32A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFC2875737A47599B49D406D1EDEC204 /* Pods-VimeoNetworking-iOS.release.xcconfig */;
+			baseConfigurationReference = 3B0CBB6E59128A750DB0A7036F517B7F /* OHHTTPStubs-iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1656,46 +1656,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VimeoNetworking-iOS/Pods-VimeoNetworking-iOS-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VimeoNetworking-iOS/Pods-VimeoNetworking-iOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS.modulemap";
+				PRODUCT_MODULE_NAME = OHHTTPStubs;
+				PRODUCT_NAME = OHHTTPStubs;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6721B9776F6DFEFD93264E7ED88DF7F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0D4AA9E6949D4E6502E93B8E163C709 /* SwiftLint-macOS.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx;
-			};
-			name = Debug;
 		};
 		79B46959D839509DC3B38658FF25AEC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1734,26 +1716,9 @@
 			};
 			name = Debug;
 		};
-		7E5D2976938F1468B5D173D9B74912BA /* Release */ = {
+		7BDCB2C741BDA3281CA09435F7474780 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0D4AA9E6949D4E6502E93B8E163C709 /* SwiftLint-macOS.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		84E3020EB369F24D238C02F3E49CAA4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2296ABE734D42DBBE2AD6980F21FE33D /* OHHTTPStubs-tvOS.xcconfig */;
+			baseConfigurationReference = 25763618BBD5F7971DD1D0B5060AC340 /* OHHTTPStubs-tvOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1787,11 +1752,69 @@
 			};
 			name = Release;
 		};
+		8634C961F5131786A8996EB13C6C3B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210068524C2A34586F5100EE430E8507 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AF83563AA286969EB038A67394F730A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABCF1749DC9E29153230B02998D5FEFC /* SwiftLint-macOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		9048587F8C30B17AD93DB8041522B773 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A235D3CD9F2796C6279E5631433C6ACC /* Pods-VimeoNetworking-macOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1826,7 +1849,286 @@
 			};
 			name = Release;
 		};
-		9B2910F3B93BF584D73D65C01630A8CE /* Debug */ = {
+		9EB845C9D27A12B3D379259D2F91ADEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D55B3D918A8B1148BF3D982C3AB067F /* OHHTTPStubs-macOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-macOS/OHHTTPStubs-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-macOS/OHHTTPStubs-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-macOS/OHHTTPStubs-macOS.modulemap";
+				PRODUCT_MODULE_NAME = OHHTTPStubs;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACB40834EB1D0DAE6458A7C685B0E778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5380B8BE7B654ACD8ECF08DFA4D03DD2 /* SwiftLint-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B33F130F1C6AA87B6C1F0219867802EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A37B5E8D328CFDEA0EA6D200CE27EDF5 /* SwiftLint-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDF1D006696FC579BF73A9B633A2F61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290C048F9735DA0392176FFFDD4C747A /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests/Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests/Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4A3A6DE88D7EF93D0C4914A6EF6744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABC97283A5B5541CBCC939344186739 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests/Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests/Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7390864510383DCCFCE2496547A0E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8B66D3BB386649A8E424272AD594AA /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF914BE06D732224931FC980CD313EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E7C091E194510008BAF1C7176A7B65 /* SwiftLint-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E14CF124560254BB8CFB100A7AFB78AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC2875737A47599B49D406D1EDEC204 /* Pods-VimeoNetworking-iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VimeoNetworking-iOS/Pods-VimeoNetworking-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VimeoNetworking-iOS/Pods-VimeoNetworking-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9DFFDF4F50E36EA4BC30A2505480EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8EB2D96D24E7CCC41AB25BD7626C893 /* OHHTTPStubs-macOS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-macOS/OHHTTPStubs-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-macOS/OHHTTPStubs-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-macOS/OHHTTPStubs-macOS.modulemap";
+				PRODUCT_MODULE_NAME = OHHTTPStubs;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5B2B7D5F4A144653B49D286C495054D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70C652866BC9BCA5A7265CE7AAD2AF75 /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests.debug.xcconfig */;
 			buildSettings = {
@@ -1843,7 +2145,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests/Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1864,62 +2166,7 @@
 			};
 			name = Debug;
 		};
-		A96F7C5AF4BDEF36E9A64F9AE7EDA95A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC7E9EF56119C5048540AE14B7FFE323 /* SwiftLint-tvOS.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		B679C52DBAD714CC8E5A14CC5169D258 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59F8058A170FA9F97888F9B94BEABEAB /* Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests/Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests/Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C30EB13463C608D8372182BEF4A3B9B7 /* Debug */ = {
+		F908498DCBB363CCBADDD16B1EB70D8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1970,7 +2217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1985,120 +2232,7 @@
 			};
 			name = Debug;
 		};
-		CDF1D006696FC579BF73A9B633A2F61E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 290C048F9735DA0392176FFFDD4C747A /* Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests/Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests/Pods-VimeoNetworking-tvOS-VimeoNetworking-tvOSTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D46773B48F00ECBFD28955A1D27D2411 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB3C80A39310867D2C953F01E2791FAE /* OHHTTPStubs-macOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-macOS/OHHTTPStubs-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-macOS/OHHTTPStubs-macOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-macOS/OHHTTPStubs-macOS.modulemap";
-				PRODUCT_MODULE_NAME = OHHTTPStubs;
-				PRODUCT_NAME = OHHTTPStubs;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D4A3A6DE88D7EF93D0C4914A6EF6744C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5ABC97283A5B5541CBCC939344186739 /* Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests/Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests/Pods-VimeoNetworking-macOS-VimeoNetworking-macOSTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D97B56AAF98B460AB58C92E8F4BF2E78 /* Debug */ = {
+		FC4EAAD0E808310EF5C8FB6CBCA62BFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 893BB156B7399EF7B824203ACCBF2F25 /* Pods-VimeoNetworking-iOS.debug.xcconfig */;
 			buildSettings = {
@@ -2115,7 +2249,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-VimeoNetworking-iOS/Pods-VimeoNetworking-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2136,138 +2270,23 @@
 			};
 			name = Debug;
 		};
-		E27A75F5015493ACC3FAFC29B60D92B8 /* Release */ = {
+		FD4D706603FDF6F2A3763A137BA9936B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4798FDC58219C64F830FF57869EF40C /* SwiftLint-macOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
-		F19C10C0CF1D63DAD072AFE322D197B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0CAFE40E287A8EA64A9732D9AC37872 /* OHHTTPStubs-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS.modulemap";
-				PRODUCT_MODULE_NAME = OHHTTPStubs;
-				PRODUCT_NAME = OHHTTPStubs;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
 			};
 			name = Debug;
-		};
-		F9B4FF00D648F3E30359FC691C4591BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0CAFE40E287A8EA64A9732D9AC37872 /* OHHTTPStubs-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs-iOS/OHHTTPStubs-iOS.modulemap";
-				PRODUCT_MODULE_NAME = OHHTTPStubs;
-				PRODUCT_NAME = OHHTTPStubs;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -2275,8 +2294,8 @@
 		030A62B00D4489B733111F5B602629D3 /* Build configuration list for PBXNativeTarget "OHHTTPStubs-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3751ECECC861E6324F24C225DAA70E8A /* Debug */,
-				D46773B48F00ECBFD28955A1D27D2411 /* Release */,
+				E9DFFDF4F50E36EA4BC30A2505480EF9 /* Debug */,
+				9EB845C9D27A12B3D379259D2F91ADEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2284,8 +2303,8 @@
 		0D0981C130B08F416BEB2EAEC0323E63 /* Build configuration list for PBXAggregateTarget "SwiftLint-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6721B9776F6DFEFD93264E7ED88DF7F7 /* Debug */,
-				7E5D2976938F1468B5D173D9B74912BA /* Release */,
+				FD4D706603FDF6F2A3763A137BA9936B /* Debug */,
+				8AF83563AA286969EB038A67394F730A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2293,8 +2312,8 @@
 		15C2581D1D019FF8D7F783E76C884B84 /* Build configuration list for PBXAggregateTarget "SwiftLint-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25C5880CA0E8C502FCDFF2FABE22B9B7 /* Debug */,
-				1E34695574BBDA6D1C7751A8A3F7A973 /* Release */,
+				B33F130F1C6AA87B6C1F0219867802EE /* Debug */,
+				DF914BE06D732224931FC980CD313EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2329,8 +2348,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C30EB13463C608D8372182BEF4A3B9B7 /* Debug */,
-				E27A75F5015493ACC3FAFC29B60D92B8 /* Release */,
+				F908498DCBB363CCBADDD16B1EB70D8B /* Debug */,
+				22E5C4685380AC956682131AE835E064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2338,8 +2357,8 @@
 		7A71D33AF5AD7FE987D9D4E2CC7353B9 /* Build configuration list for PBXAggregateTarget "SwiftLint-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A96F7C5AF4BDEF36E9A64F9AE7EDA95A /* Debug */,
-				21D9652AD1A71BEDAAC8C44DD090D18D /* Release */,
+				2D21B0BB3316A60143F65EB5CB89FD28 /* Debug */,
+				ACB40834EB1D0DAE6458A7C685B0E778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2347,8 +2366,8 @@
 		890523AFEF0CDC7C28D612D20D1565E3 /* Build configuration list for PBXNativeTarget "Pods-VimeoNetworking-iOS-VimeoNetworking-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B2910F3B93BF584D73D65C01630A8CE /* Debug */,
-				B679C52DBAD714CC8E5A14CC5169D258 /* Release */,
+				F5B2B7D5F4A144653B49D286C495054D /* Debug */,
+				0C7A9370990C4DD381B832FEC2CBE3A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2356,8 +2375,8 @@
 		A5939D0D5C6E934A1D31370D35C5CEE1 /* Build configuration list for PBXNativeTarget "Pods-VimeoNetworking-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D97B56AAF98B460AB58C92E8F4BF2E78 /* Debug */,
-				621E2EC3F9BB1F602823568B515B9E10 /* Release */,
+				FC4EAAD0E808310EF5C8FB6CBCA62BFD /* Debug */,
+				E14CF124560254BB8CFB100A7AFB78AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2365,8 +2384,8 @@
 		A86C9C1B34F37C79D296DB3081E27798 /* Build configuration list for PBXNativeTarget "OHHTTPStubs-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2ED6E3249DF8370F35D7F1FF7963A6A7 /* Debug */,
-				84E3020EB369F24D238C02F3E49CAA4F /* Release */,
+				50A7DAB59984C827A2E240F03B7A04B1 /* Debug */,
+				7BDCB2C741BDA3281CA09435F7474780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2383,8 +2402,8 @@
 		D89792D0ABE1EA9CAC8D932BF41B84E6 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				277E5D642685B8072D8F922C24729994 /* Debug */,
-				02EB66C0EEADC38E657D04F68D792061 /* Release */,
+				D7390864510383DCCFCE2496547A0E68 /* Debug */,
+				8634C961F5131786A8996EB13C6C3B79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2392,8 +2411,8 @@
 		E2BBBA29288F29598812C83CB853CE2E /* Build configuration list for PBXNativeTarget "OHHTTPStubs-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F19C10C0CF1D63DAD072AFE322D197B6 /* Debug */,
-				F9B4FF00D648F3E30359FC691C4591BA /* Release */,
+				55961EE46242548C1D5D2A80F8E715CD /* Debug */,
+				76B1AF110A8F163B007F2F2CFCFEB32A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
