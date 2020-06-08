@@ -90,8 +90,9 @@ final public class VimeoRequestSerializer: AFJSONRequestSerializer {
     
     // MARK: Overrides
     
-    public override func request(withMethod method: String, urlString URLString: String, parameters: Any?, error: NSErrorPointer) -> NSMutableURLRequest {
-        var request = super.request(withMethod: method, urlString: URLString, parameters: parameters, error: error) as URLRequest
+    public override func request(withMethod method: String, urlString URLString: String, parameters: Any?) throws -> NSMutableURLRequest {
+        
+        var request = try super.request(withMethod: method, urlString: URLString, parameters: parameters) as URLRequest
         
         request = self.requestConfiguringHeaders(fromRequest: request)
         

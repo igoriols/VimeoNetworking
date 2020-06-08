@@ -171,7 +171,7 @@ final public class AuthenticationController {
      
      - returns: the code grant authorization page URL
      */
-    public func codeGrantAuthorizationURL() -> URL {
+    public func codeGrantAuthorizationURL() throws -> URL? {
         let parameters = [Constants.ResponseTypeKey: Constants.CodeKey,
                           Constants.ClientIDKey: self.configuration.clientIdentifier,
                           Constants.RedirectURIKey: self.codeGrantRedirectURI,
@@ -180,15 +180,10 @@ final public class AuthenticationController {
         
         let urlString = self.configuration.baseUrl.appendingPathComponent(Constants.CodeGrantAuthorizationPath).absoluteString
         
-        var error: NSError?
-        let urlRequest = VimeoRequestSerializer(appConfiguration: self.configuration).request(withMethod: VimeoClient.Method.GET.rawValue, urlString: urlString, parameters: parameters, error: &error)
+
+        let urlRequest = try VimeoRequestSerializer(appConfiguration: self.configuration).request(withMethod: VimeoClient.Method.GET.rawValue, urlString: urlString, parameters: parameters)
         
-        guard let url = urlRequest.url, error == nil
-        else {
-            fatalError("Could not make code grant auth URL")
-        }
-        
-        return url
+        return urlRequest.url
     }
     
     /**

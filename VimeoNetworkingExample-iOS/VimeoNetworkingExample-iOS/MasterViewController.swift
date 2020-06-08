@@ -174,9 +174,16 @@ class MasterViewController: UITableViewController
         }
         else
         {
-            let URL = authenticationController.codeGrantAuthorizationURL()
-            
-            UIApplication.shared.openURL(URL)
+            do {
+                guard let URL = try authenticationController.codeGrantAuthorizationURL() else { return }
+                
+                UIApplication.shared.openURL(URL)
+            } catch {
+                let alert = UIAlertController(title: "Error", message: "Could not make code grant auth URL", preferredStyle: .alert)
+                let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+                alert.addAction(action)
+                self.present(alert, animated: true, completion: nil)
+            }
         }
     }
 

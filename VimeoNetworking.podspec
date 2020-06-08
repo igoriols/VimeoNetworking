@@ -16,9 +16,11 @@ Pod::Spec.new do |s|
 
   s.social_media_url   = "http://twitter.com/vimeo"
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
   s.tvos.deployment_target = "9.0"
   s.swift_version = "4.2"
+
+  s.dependency 'AFNetworking', '~> 4.0'
 
   s.requires_arc = true
   s.source = { :git => "https://github.com/vimeo/VimeoNetworking.git", :tag => s.version.to_s }

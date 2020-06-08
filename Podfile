@@ -5,11 +5,12 @@ project 'VimeoNetworkingExample-iOS/VimeoNetworkingExample-iOS.xcodeproj'
 
 def shared_pods
     pod 'SwiftLint', '0.25.1'
+    pod 'AFNetworking', '~> 4.0'
     pod 'VimeoNetworking', :path => '../VimeoNetworking'
 end
 
 target 'VimeoNetworkingExample-iOS' do
-    platform :ios, '8.0'
+    platform :ios, '9.0'
     shared_pods
 
     target 'VimeoNetworkingExample-iOSTests' do

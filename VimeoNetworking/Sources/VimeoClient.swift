@@ -217,15 +217,15 @@ final public class VimeoClient {
             
             switch request.method {
             case .GET:
-                task = self.sessionManager?.get(path, parameters: parameters, progress: nil, success: success, failure: failure)
+                task = self.sessionManager?.get(path, parameters: parameters, headers: nil, progress: nil, success: success, failure: failure)
             case .POST:
-                task = self.sessionManager?.post(path, parameters: parameters, progress: nil, success: success, failure: failure)
+                task = self.sessionManager?.post(path, parameters: parameters, headers: nil, progress: nil, success: success, failure: failure)
             case .PUT:
-                task = self.sessionManager?.put(path, parameters: parameters, success: success, failure: failure)
+                task = self.sessionManager?.put(path, parameters: parameters, headers: nil, success: success, failure: failure)
             case .PATCH:
-                task = self.sessionManager?.patch(path, parameters: parameters, success: success, failure: failure)
+                task = self.sessionManager?.patch(path, parameters: parameters, headers: nil, success: success, failure: failure)
             case .DELETE:
-                task = self.sessionManager?.delete(path, parameters: parameters, success: success, failure: failure)
+                task = self.sessionManager?.delete(path, parameters: parameters, headers: nil, success: success, failure: failure)
             }
             
             guard let requestTask = task else {
@@ -422,7 +422,7 @@ extension VimeoClient {
         
         let defaultSessionManager = VimeoSessionManager.defaultSessionManager(appConfiguration: appConfiguration, configureSessionManagerBlock: configureSessionManagerBlock)
         
-        self._sharedClient.sessionManager?.invalidateSessionCancelingTasks(false)
+        self._sharedClient.sessionManager?.invalidateSessionCancelingTasks(false, resetSession: true)
         self._sharedClient.sessionManager = defaultSessionManager
         
         VimeoReachability.beginPostingReachabilityChangeNotifications()

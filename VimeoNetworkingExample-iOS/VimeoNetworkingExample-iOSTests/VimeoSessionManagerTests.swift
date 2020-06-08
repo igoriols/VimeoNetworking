@@ -72,19 +72,19 @@ class VimeoSessionManagerTests: XCTestCase
         let testPath = "/test/api/endpoint"
         let testUrl = testApiServer.appendingPathComponent(testPath)
         
-        var task = sessionManager.get(testPath, parameters: nil, progress: nil, success: nil, failure: nil)
+        var task = sessionManager.get(testPath, parameters: nil, headers: nil, progress: nil, success: nil, failure: nil)
         XCTAssertEqual(task?.currentRequest?.url, testUrl)
         
-        task = sessionManager.post(testPath, parameters: nil, progress: nil, success: nil, failure: nil)
+        task = sessionManager.post(testPath, parameters: nil, headers: nil, progress: nil, success: nil, failure: nil)
         XCTAssertEqual(task?.currentRequest?.url, testUrl)
         
-        task = sessionManager.put(testPath, parameters: nil, success: nil, failure: nil)
+        task = sessionManager.put(testPath, parameters: nil, headers: nil, success: nil, failure: nil)
         XCTAssertEqual(task?.currentRequest?.url, testUrl)
 
-        task = sessionManager.patch(testPath, parameters: nil, success: nil, failure: nil)
+        task = sessionManager.patch(testPath, parameters: nil, headers: nil, success: nil, failure: nil)
         XCTAssertEqual(task?.currentRequest?.url, testUrl)
 
-        task = sessionManager.delete(testPath, parameters: nil, success: nil, failure: nil)
+        task = sessionManager.delete(testPath, parameters: nil, headers: nil, success: nil, failure: nil)
         XCTAssertEqual(task?.currentRequest?.url, testUrl)
     }
     
@@ -101,19 +101,19 @@ class VimeoSessionManagerTests: XCTestCase
         let testPath = "/test/api/endpoint"
         let testUrl = TestVimeoBaseURL.appendingPathComponent(testPath)
         
-        var task = sessionManager.get(testPath, parameters: nil, progress: nil, success: nil, failure: nil)
+        var task = sessionManager.get(testPath, parameters: nil, headers: nil, progress: nil, success: nil, failure: nil)
         XCTAssertEqual(task?.currentRequest?.url, testUrl)
         
-        task = sessionManager.post(testPath, parameters: nil, progress: nil, success: nil, failure: nil)
+        task = sessionManager.post(testPath, parameters: nil, headers: nil, progress: nil, success: nil, failure: nil)
         XCTAssertEqual(task?.currentRequest?.url, testUrl)
         
-        task = sessionManager.put(testPath, parameters: nil, success: nil, failure: nil)
+        task = sessionManager.put(testPath, parameters: nil, headers: nil, success: nil, failure: nil)
         XCTAssertEqual(task?.currentRequest?.url, testUrl)
         
-        task = sessionManager.patch(testPath, parameters: nil, success: nil, failure: nil)
+        task = sessionManager.patch(testPath, parameters: nil, headers: nil, success: nil, failure: nil)
         XCTAssertEqual(task?.currentRequest?.url, testUrl)
         
-        task = sessionManager.delete(testPath, parameters: nil, success: nil, failure: nil)
+        task = sessionManager.delete(testPath, parameters: nil, headers: nil, success: nil, failure: nil)
         XCTAssertEqual(task?.currentRequest?.url, testUrl)
     }
     
